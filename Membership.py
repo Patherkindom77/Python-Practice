@@ -1,13 +1,16 @@
-a = [1,2,3,4,5]
+a = 5 # Binary: 0101
 
-b = [1,2,3,4,5]
+b = 3 # Binary: 0011
 
-c = a
+print(a & b) # AND: 0101 & 0011 = 0001 = 1
 
-print(a in c)
+print(a | b) # OR: 0101 | 0011 = 0111 = 7
 
-print(a not in b)
+print(a ^ b) # XOR: 0101 ^ 0011 = 0110 = 6
 
-print(a in c)
+print(~b) # NOT: flips all bits of 3 = -4
 
-print(a not in b)
+print(a << b) # Left shift: 5 shifted left by 3 = 40
+
+print(a >> b) # Right shift: 5 shifted right by 3 = 0
+
