@@ -1,9 +1,7 @@
-i = 1 # initialise i is less than or equal to 5 
-
-while i <= 5: # iterate loop till i less than or equal to 5
-j = i
-while j <-10: #loopwill iterate 10
-    print(j,end=" ")
-    j = j + 1 # increment in columns
-print() =increment in rows 
-i - i + 1 # increment in rows
+# outer lamp
+for i in range(1,5):
+    # to iterate from 1 to 10
+    for j in range(1,11):
+        # dispay output
+        print(j, end=' ')
+    print()
